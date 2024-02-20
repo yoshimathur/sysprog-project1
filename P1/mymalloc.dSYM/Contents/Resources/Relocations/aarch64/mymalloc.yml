@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yashmathur/Downloads/School/SysProg/P1/mymalloc'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _mymalloc, symObjAddr: 0x0, symBinAddr: 0x100003CE8, symSize: 0x12C }
+  - { offsetInCU: 0x49, offset: 0x49, size: 0x8, addend: 0x0, symName: _mymalloc, symObjAddr: 0x0, symBinAddr: 0x100003CE8, symSize: 0x12C }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _myfree, symObjAddr: 0x12C, symBinAddr: 0x100003E14, symSize: 0x18 }
+  - { offsetInCU: 0xCD, offset: 0xCD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x144, symBinAddr: 0x100003E2C, symSize: 0x8C }
+...
